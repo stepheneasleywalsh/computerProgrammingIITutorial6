@@ -51,6 +51,8 @@ class line:
 
 
 class point(line): # Child class point of parent class line
+    name = "line"
+
     def __int__(self, X1, Y1):
         super().__init__(X1, Y1, X1, Y1)
 
